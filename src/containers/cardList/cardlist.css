@@ -1,0 +1,33 @@
+.Carta{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 0;
+}
+
+p {
+    text-align: center;
+    display: block;
+    margin: 0 0 10px;
+    color: gray;
+    font-size: 12px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+h1,h2 {
+    text-align: center;
+    display: block;
+    margin: 0 0 10px;
+    color: gray;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+
+  @media (min-width: 800px){
+    .Carta{
+        width: 20%;
+    }
+}

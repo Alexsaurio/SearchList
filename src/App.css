@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  background: #2977C8;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  color: white;
+  letter-spacing: 0.05em;
+  margin: 20px 5px;
+  padding: 10px 20px;
+  outline: none;
+  width: 90%;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+
+}
+.btn:hover{
+    background: rgb(7, 90, 179);
+}
+
+input {
+  outline: none;
+  display: block;
+  background: rgb(202, 202, 202);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: gray;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  transition: 0.3s ease;
+}
+ul{
+  text-align: center;
+  width: 100%;
+}
+.opcion{
+  padding: 10px;
+  margin: 0px;
+  background: #f7f7f7;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  list-style: none;
+  transition: 0.3s;
+}
+.opcion:hover{
+  color: #f7f7f7;
+  background: gray;
+  border-radius: 3px;
+}
